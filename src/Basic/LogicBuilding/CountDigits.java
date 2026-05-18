@@ -5,6 +5,7 @@ public class CountDigits {
         long ans = functionName(123456789);   // 12345678910 used -> Long = 12345678910L
         System.out.println(ans);                  // not used 0123.. leading ZERO
                                                     // its OCTAL NUmber
+                                        // if Negative -> Math.abs(-1233); built-in function / TypeCaste -(-123)
     }
     public static long functionName(long n) {
         if (n == 0) {
